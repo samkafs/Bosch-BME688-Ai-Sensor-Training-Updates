@@ -1,0 +1,100 @@
+{
+    "accelerators": [],
+    "algorithm_type": "classifier",
+    "class_names": [
+        "PERFUME",
+        "INCENSE",
+        "CLEAN_AIR"
+    ],
+    "commit": "HEAD",
+    "compilation_date": "2026-05-27T05:48:36.038949",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": false,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2026.03.05.0','platform':'win64'},'studio':'5.1.1'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':false,'use_knowledge':false},'mcu':'cortex-m4_st_stm32wb_nucleo-wb55rg','sensor':'','accelerators':[],'request_origin':'manual','algorithm_type':'classifier','lib_version':'v3_3938dd5','info':{'progression':{'evals_done':20000,'optimization_progress':1.0,'elapsed_time':11565,'cpu_info':{'cpu_nb_cores':8,'cpu_nb_cores_for_optimization':3},'state':'finished'},'max_ram':256000,'max_flash':1024000,'optimization_global_id':'380a08c292cd3d6d6f679be9300b8888','version':{'local_api':'2026.03.05.0','studio':'5.1.1'},'creation_date':'2026-05-27T00:11:26+00:00'},'class_names':'PERFUME,INCENSE,CLEAN_AIR','results':[{'result_id':120,'combination':{'type':'classification','name':'XGB','params':{'n_estimators':20,'learning_rate':0.25,'max_depth':4,'min_child_weight':2,'subsample':0.8999999999999999,'colsample_bytree':1.0,'reg_lambda':0.0033342012073338963,'reg_alpha':0.07503870178547477,'gamma':0.004613538894567776,'base_score':0.5,'beta':5.0,'tmp_dir_path':null},'preprocessing_chain':[]},'model':null,'performance':{'performance':{'score':0.99,'main_kpi':1.0},'memory_usage':{'estimated_ram':16,'estimated_flash':7368,'estimated_flash_knowledge':null}},'learning_min_lines':null,'knowledge':'eNrFXVtvZLcN_ivBPjeGeBXZt6JIgQBtULToU1EsNomTGNg4gb19aZD_3o-zbvdopmNbczTowvB6xhYPJZIfb5Lmlzc_P9z-_PDTN7ePj3f337_57Wd__8dvPnvz40_f3r7Hi1_ePN59f__u_dv3t_d4SfjVt3c_3t4_3v1UrxWv7-5__ueHt493_7p9euP-nz--_fBwe_uI196e3rgHwXpDuN75-t3j7dvHb356qDHtxuqPnv7g77-8-e7uW_zAePPDDw9FlG8yW2vkPdQ98Iv3t999eOLn4e77Hz48_f3723ff4cfP-ab9-pvP_kNJ_kup3bg21VRXYSJx-0RLNrT0LK3PP7FVv_k0_PMtL4cXTwTajXTNkEwn4-g9NuTaf6lxv1HDJFt3Tkk1-UTbNqR9IWuftxuKruHEvVEkh8kSgiohFtI8whYsnkto9uBU6WfkKpZmzdw0iMLyE-3YkM7_j1y5bQW7Ud-2oU10lrmNKdBN3xLgLQFZrxpJWNJU7q4cu5dLOklSs54epCv4K0CAYnADq2c0Aw8kYomWeOZgVrS1K7qCYaVgngnBm8QKXYNyO3tkdv7f2nEeKLdWQLkTKnmrt0xLjYq9q1gPiC2gdoPBvw4teWsUvNooehNz5kgFc_i2hCCQi7pZ4j9bsH7cJEiwNo1SpgGTt2bBfgXpagkXD2ebhkzuW-ZiHjI5NwSkrdcOB9YIHCoTG-9eLlifQk7lmQVwsoJB7QYY6UqKF9OgKVvrkitYl2sBOinhB1mhbmUQIGk5eLDXoKZsLUF8b4C5VV2JtXZFnlC6FuVZnU2nUVO2dqGr7cKAMNLwvWLN5kvoEVbarAOLacHqgSQ5AlbXCyBTt0ahcgXRNmlkirnyNGSqbpmzechU3xLoV1CNDA8t-_PdiEnwogi6EkICBMsK9kLYAOvcSvrTgKlbw7L1huUN6JYAHTycV-gaw281QJg6TeKlbc3AZCde2lZvzZYaFUWJSSBbwhS823xOvjUKW24USMcjgxHwd3yzJQS7NkYujWxaFiwf9waf6iALzzqNmLa1Cm9XEG6lmcgioMrziblviTvPQ6Zvq0mu67UDKWDryR0BU_ju9eotWyaDnhkEu4LB3lWhwUj1W_A0aPrWuny9dUHwXuoR7LwbNQ_6hoULgX1R19kw07e20NtO2OxbRjuvtawO_hlJOdQPSc4Qn78ONvvWMPpqwyirZ0o2j95zBTnNMopkWJrtRk3PTAIiklOD7OZrmX1rFr1fQbYcSBCr4tr6NGr2bZGp5zxqxrauFLReOZCba3kt252Zk8Po8Y-9gvLgFdxJR8hqVUumPo2YsTWsuIJheUUO1qEYKrpC1wQRjsN_TRczY2sF0XfiZWy1NtZ2CMhKpJAr_AwpDfWb1-Flbk0iV5uEZMWFAjft1MfE91KCVabuDhSOLjurox_XT7uxeACGW5uPM3NrFqlXkG5L600bctd5xMxtgSl9HjFzW1PKWK8eBN77ocllsRszzQmeRVtCRvhuK9QtBACM9cfKynw1k9rQgmtXMDCEI0hDoKHCySs0DnNlReYFjbPZNlCTYbq6EzupDS20trZZQHho6xVTYxHJ53N0an1gb7l9ILfpVWwSKREvoQcvkQDOVh3X_esnvUMLmDVC23xdk4461LRevtAqgRopIvb5bhCNDfBnOuDnW-ikAwlbriMwOkVWDR0O8d2Rk3YFIc_qAmt2X6F0XuypGzSvzUeeRIOVUVxhBZGoB7AeU_YVSheJcBY02YeY51UQOjS_6Znu9yshdGhXE8tiExP8o0CqHmHQw3kM5cE-eLl9iAHhW_PWitcFMYHALDpnKQtkGPtXkNNJulp1dM3mQXToWRPHegnDOMKhq9n6fBBKQ0ucnumJnwdRoYEEr1eS8mGts3MFpLvXDGCG6CmQ92ht0FmhdF3hZ62pV5A2D6IymJlcwcwEUTIeK0fbhy5WOkPyzsK9SoGzIDr0wumZZvgrQXToXpMu7icAOwNYArodpjPfW4e-DewtNw8q4Wr0VPElaTxZVS16dhMobCxYQHwpYiAEC33o_78SQ4cmNqldQcDuYkGh49bEV2Lo0COnZ5rk5zFUhz16muuVBIubECj8Y5rtXjPYf2I9kJ65LNiZVHxZBzwhslVVv2A752BldgUrg3FhwnCzCOhX6FwAHFWrJWB9FkKH9jg90x9_JYQODW2yxc0FwQw9VJlOsoxXYqgN5mHLzaNEAdSL6m6x8gqCzUDQELII7S-ZYwWpsnk4od4Rusxj6NDVJucrSBjoAjxo7YK98EPLnJ7pmZ9HUB83dPt6FVFzR27RqlqxOxOFDSJ0FwjLE-a9P_XhTK8vSYqjbXGvhFAfjMyvYGQWla9AhRE7ygKdi-aqmA-c2nQ1dGiVU997goiG5jb1xd0GkRbekMVTFZXbBWFoH-yjr7YPjtrEx4JAKhvvjBqfCBaedKA9paYtWEEoSjduBkekF6TyQ4ubel5Bwlo9rzrqkfMYOjTQKS45URRDOSpkvY4EggvxSgN22z8Hkk_i6g-0GAvIl7LXwZ71dlC8uCCPj8HG4go2lnD_iLihm0ssAjE87CuotslPnyoazCH2niuiodtNubjdgFQ2FfJConwQ3TyA5mAcudw4EHkaoNNbwc-C2j4IQk2Rd2tIHa3Yv4JYtg7PZvgBvnceQIeON6WvlzB8T-3jj9pBO4-gQ0Od8oIDRpTbWhS3tl5Jes-qRyNPNt9dm2FoGozCEYnWebYFXruHGSK9bAj0LjhhxG04wNeuYGUItxEFUJ3VavsxlCBkg33VtGUoHr0GRHnooXPz3YczhyNybXG7AeGYUm3KgdNtzvOnM9tgHrTePLCEnapnA3jJBfSAI1ENIGS17n3_-jkXHgeAsbaFzR_PHHreTLJevoCE2lkeuqAdx1ZlEIITSlfq81vBeTimzcvPaUNh0gMGHLVnPResn5EfajS1RXS2rMfDSW3ef1R7PKu9-LA2wlFnhFQIwaEx0eKCw9qDNi8_rs1IRg_dDIc4VpRYHLhiXmUMpJK7j6thAbXXhvWoHTB8wUEaHo9rLz6vfRBwnXurc7nSFpT5WaoOnFKuUi4p8zMPFsK5XGNqJ2zzJAim7e-TYAXryBViDoBCTudYPLTWWfYWqVhkoLe4SFXnJLCCjhCcevAFgDAcumZZDvdObghcqG6YYOorCEoyjLd2X9gCROhmUJQEciOiHMLJVyKCDAYiuVzChQRmFcRYrEAEKIPUATQtkvOAMHTXeXl3nR0OBFF-D6m63IL1c3iP2vZoxDpbtOahE866t-_HQ-eata_WFmTjJdlW0S7PH4DgoS3Oy9viDGNzxLoQc3N8X0FQIWEkC9S17W4TA1kgsbrqAMrS7AI4GNribLxcwCbG2WCG-LrgRhcbHJJd0PhjG3yGLfcZlpUHwl8o4rX9ZTTYQZ2QdYQGnl0WJKlwGcg1MguUWS_A0KG7zrbeypCLqyC3BAqlLADRVnX6oBaCjGs6yxpa4ey7g6qhec2-OqjycpCkhodb4wuuxPLxTqf1BlK3OgGqpDyargBRgasVKbLa2n6Lc6o-RyAOr5sOL0DRoTPOvjqo8tqWzg0JsNdNYBfcizXk-f1Vrb-8AWTgH3IyeGkbyA1peV-ellcK7R2w0BFE0t5GYLkgF6xBR5RmueAGA3hNQ85mlbjVZZbziDo023l9sx3LB1DTKtcVQCzAmHJx1hvgMGdvfuGhMc59d9lq6GRzrC5bedOo8waYrXrO4-nQJef1XXLDetTdHm6drMmKKqxlBEJdYHTs30AP7VOvwnhtSqOzVSuFQ8Df1fVVCHV8u4CDdYSvly9SVJVODZGCz8NpjPcMxk44jaHpkcubHiYi5eBgR8m5G041OvQkxQGAprogx9fKsmq_VvUF-_xdrTy03nl96x1RS-39tLpnLRfoX93CmZiINJm-d5CHLjnn7pbg0NXmXN0SRMBUW8CtAlS9oCWY452cy60DWO9Is-DLI31FuqUdrqPMvDVE5PuzGURAlVhGXbwmNL8vTYaWuTRZLmAFlIPFRPph--GAPtb6qLa--wXH9mXomUtbH1xxnacpPGgutMJdBrA0yjSzT-_1lxbDdPdGVzIc65bVx7rhjRryrCpjl_eYvyRKhha3LL_YnEu2XE1LfPcFyYLWsTAvcKme4P6aH0DFMqknQxdi_ty-DD1zIV8vYKBVXS_dC1n340HdFCeHO5AaIt55PBi65kLry1etIUgl5OepybxgAc1EES62ckn5a33mxjfv3z0-3n13d_vw9DkYjx_ePXx4-8luHm5vP706fF7G2_uv68H9P6Offn1gbzO6z4ym49GHCxLOD5dxOJ8MH59Ok7yzzgw_Yf7QPT0__CXmZXw6TzKvNDP8hPlD6-P88JeYt_HpMsm8xczwE-YPDuf88JeY9_HpOqvyNjP8hPlDfn9--EvMx_h0m2Q-eWb4CfOHcPr88BcNto2P90nuqeXM-FO8Obir8-Nf5J_G5_dZ_tlnxp_yf9hhcX78i_zL-PyY5V9lZvwp_9aeHf8i_zY-P2f59zYz_pR_78-Of9lhjc-nWXdLvU8ROJ1B6PMEXpxCHHEw63UpdYrAyRS40fMEXpoCtyMOZn0vEz1PQF6aAukUgdMpHIc-sx6Yj4MfmZ0C9ykCp1OQI1uY9cMs_XkCL05B2xSB0ykcwSHNemM-wkOa9cds_XkCL07hCBFp1iXzESTSrE_mrs8TeHEKx5g465X5GBNn3TInPU_gxSkcY-KsY5ZjTIxJW5CmUwRO05l2JIVZ3yzHmJizU6A-RYAPqXF9guThzY-fIVmfIHn74V3FtoeM--Pf37_78eMnSL758xd_-cPf_vTFG_zqy69-_8VXfz38-Ps_fvG7r97-7su_vPnHr7_-G5q_e0Q=','knowledge_dat':null,'commit_tag_used':'v3_3938dd5'}],'data':{'nb_cols':4,'nb_lines':[[{'file_type':'class','nb_lines':3950},{'file_type':'class','nb_lines':4321},{'file_type':'class','nb_lines':5638}]]},'toolchain_type':'gcc','only_emulators':false},'sign':242663,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 4,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "class",
+                    "nb_lines": 3950
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 4321
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 5638
+                }
+            ]
+        ]
+    },
+    "learning_min_lines": null,
+    "lib_limited": false,
+    "library_id": "6a1685b44fb558187becea48",
+    "library_md5sum": "6eedf6430b79074116aae85a56d174fc",
+    "mcu": "cortex-m4_st_stm32wb_nucleo-wb55rg",
+    "mcu_cpn": "NUCLEO-WB55RG",
+    "mcu_display_name": "NUCLEO-WB55RG - STMicroelectronics",
+    "mcu_family": "STM32WB Series",
+    "mcu_group": "demo",
+    "mcu_type": "cortex-m4",
+    "mcu_vendor": "STMicroelectronics",
+    "optimization_info": {
+        "creation_date": "2026-05-27T00:11:26+00:00",
+        "max_flash": 1024000,
+        "max_ram": 256000,
+        "optimization_global_id": "380a08c292cd3d6d6f679be9300b8888",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 8,
+                "cpu_nb_cores_for_optimization": 3
+            },
+            "elapsed_time": 11565,
+            "evals_done": 20000,
+            "optimization_progress": 1.0,
+            "state": "finished"
+        },
+        "version": {
+            "local_api": "2026.03.05.0",
+            "studio": "5.1.1"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 7368,
+            "estimated_flash_knowledge": null,
+            "estimated_ram": 16
+        },
+        "performance": {
+            "main_kpi": 1.0,
+            "score": 0.99
+        }
+    },
+    "request_type": "library",
+    "sensor": "",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2026.03.05.0"
+        },
+        "studio": "5.1.1",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "toolchain_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "user_info": {
+        "company": "Norfolk State University",
+        "email": "samuelkwawukume@gmail.com",
+        "first_name": "Samuel",
+        "last_name": "Kwawukume"
+    }
+}
