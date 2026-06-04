@@ -1,0 +1,17 @@
+C:/Users/Samkafs/STM32Cube/Repository/STM32Cube_FW_WB_V1.23.0/Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	1
+../Core/Src/main.c:129:5:__io_putchar	1
+../Core/Src/main.c:135:6:BME688_Init	1
+../Core/Src/main.c:173:9:BME688_CalcHeaterRes	2
+../Core/Src/main.c:189:6:BME688_TriggerMeasurement	7
+../Core/Src/main.c:211:5:BME688_GetNewestField	7
+../Core/Src/main.c:233:9:BME688_ReadTemperature	1
+../Core/Src/main.c:248:9:BME688_ReadPressure	3
+../Core/Src/main.c:277:9:BME688_ReadHumidity	3
+../Core/Src/main.c:301:9:BME688_ReadGasResistance	4
+../Core/Src/main.c:328:5:main	15
+../Core/Src/main.c:517:6:SystemClock_Config	3
+../Core/Src/main.c:558:6:PeriphCommonClock_Config	2
+../Core/Src/main.c:578:13:MX_I2C1_Init	4
+../Core/Src/main.c:617:13:MX_USART1_UART_Init	5
+../Core/Src/main.c:658:13:MX_GPIO_Init	1
+../Core/Src/main.c:683:6:Error_Handler	1
